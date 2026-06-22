@@ -142,6 +142,7 @@ O NotebookLM organizou os principais tipos de dados que podem ser analisados em 
 | Logs de incidentes    | Evento: Acesso Negado                | Agrupar eventos por usuário, sistema ou tipo de ocorrência           |
 | Performance da equipe | Chamados fechados por analista       | Criar relatórios de produtividade e carga de trabalho                |
 
+
 ### Fontes utilizadas na resposta
 
 * Documentação do pandas.
@@ -231,6 +232,7 @@ O NotebookLM sugeriu métricas simples que podem ser calculadas com Python em um
 | Volume por analista      | Monitorar carga de trabalho                   | `df.groupby('Analista').size()`            |
 | Top 5 tipos de alerta    | Identificar alertas mais recorrentes          | `df['Tipo_Alerta'].value_counts().head(5)` |
 | Resumo estatístico geral | Obter visão geral dos dados numéricos         | `df.describe()`                            |
+
 
 ### Fontes utilizadas na resposta
 
